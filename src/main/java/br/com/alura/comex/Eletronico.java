@@ -8,4 +8,20 @@ public class Eletronico extends Produto {
     }
     public int Voltagem;
     public int Potencia;
+
+    public int getVoltagem() {
+        return Voltagem;
+    }
+
+    public void setVoltagem(int voltagem) {
+        Voltagem = voltagem;
+    }
+
+    public int getPotencia() {
+        return Potencia;
+    }
+
+    public void setPotencia(int potencia) {
+        Potencia = potencia;
+    }
 }
