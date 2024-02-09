@@ -3,11 +3,15 @@ package br.com.alura.comex;
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 
@@ -15,6 +19,7 @@ public class testeApiDinamica{
     public static void main (String[] args) throws IOException, InterruptedException {
         Scanner leitura = new Scanner(System.in);
         String  busca = "";
+
         Gson gson = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
                 .setPrettyPrinting()
@@ -40,6 +45,11 @@ public class testeApiDinamica{
         System.out.println(json);
 
         System.out.println("endereco");
+
+        FileWriter escrita = new FileWriter("produto.json");
+            escrita.write(gson.toJson(endereco));
+            escrita.close();
+
     }
 
 }
