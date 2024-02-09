@@ -1,5 +1,7 @@
 package br.com.alura.comex;
 
+import br.com.alura.comex.modelos.Pedido;
+
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.net.URISyntaxException;

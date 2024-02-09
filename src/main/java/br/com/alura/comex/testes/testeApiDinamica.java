@@ -1,4 +1,4 @@
-package br.com.alura.comex;
+package br.com.alura.comex.testes;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;

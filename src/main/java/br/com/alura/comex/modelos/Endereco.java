@@ -1,4 +1,4 @@
-package br.com.alura.comex;
+package br.com.alura.comex.modelos;
 //Crie as classes Cliente e Endereco
 public class Endereco {
 

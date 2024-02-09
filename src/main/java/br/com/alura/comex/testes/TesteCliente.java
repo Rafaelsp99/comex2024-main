@@ -1,7 +1,9 @@
 //Resultado esperado
 //Crie uma classe de teste para efetuar a criação desse objetos e criar a associação entre eles.
-package br.com.alura.comex;
+package br.com.alura.comex.testes;
 //Crie as classes Cliente e Endereco
+
+import br.com.alura.comex.modelos.Cliente;
 
 public class TesteCliente {
     public static void main(String[] args) {

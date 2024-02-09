@@ -1,7 +1,7 @@
-package br.com.alura.comex;
+package br.com.alura.comex.testes;
 
 
-import java.util.Scanner;
+import br.com.alura.comex.modelos.Produto;
 
 public class Teste {
     public static void main(String[] args) {

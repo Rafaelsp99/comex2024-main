@@ -1,4 +1,4 @@
-package br.com.alura.comex;
+package br.com.alura.comex.testes;
 
 import java.util.Scanner;
 
@@ -21,6 +21,7 @@ public class testeUsuario {
                 System.out.println("Você digitou: "+ " -> " + entrada.next() + " <- " + " Não digite letras, você deve digitar apenas números.");
                 entrada.next();
             }
+
         } while (true);
 
     }
