@@ -1,5 +1,7 @@
 package br.com.alura.comex;
 
+import Interfaces.IdentificarLivro;
+
 public class Livro extends Produto implements IdentificarLivro {
     public Livro (String nome, String descricao,
                        int qunatidade ,float precoUnitario){

@@ -1,4 +1,7 @@
 package br.com.alura.comex;
+
+import Interfaces.IdentificarCliente;
+
 //Crie as classes Cliente e Endereco
 public class Cliente extends Endereco implements IdentificarCliente {
 

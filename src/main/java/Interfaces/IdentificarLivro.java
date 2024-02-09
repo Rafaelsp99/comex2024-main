@@ -1,4 +1,4 @@
-package br.com.alura.comex;
+package Interfaces;
 
 public interface IdentificarLivro {
     public String getNOME();
